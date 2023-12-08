@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+tr:hover {
+    background-color: grey;
+}
+button {
+    margin: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
