@@ -4,18 +4,6 @@ function getRandomWord() {
     return words[Math.floor(Math.random() * words.length)];
 }
 
-function createTable() {
-    const table = document.querySelector("#myTable");
-
-    for (let i = 0; i < 10; i++) {
-        const row = table.insertRow();
-        for (let j = 0; j < 3; j++) {
-            const cell = row.insertCell();
-            cell.innerHTML = getRandomWord();
-        }
-    }
-}
-
 function addRow() {
     const table = document.querySelector("#myTable");
     const row = table.insertRow();
