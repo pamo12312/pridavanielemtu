@@ -7,7 +7,7 @@ function getRandomWord() {
 function initializeTable() {
     const table = document.querySelector("#myTable");
 
-    // Add initial 10 rows to the table
+
     for (let i = 0; i < 10; i++) {
         const row = table.insertRow();
 
@@ -49,5 +49,5 @@ function reverseTable() {
     });
 }
 
-// Initialize the table when the page is loaded
+
 document.addEventListener("DOMContentLoaded", initializeTable);
