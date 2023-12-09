@@ -31,7 +31,7 @@ function addRow() {
 function deleteRow() {
     const table = document.querySelector("#myTable");
 
-    // Check if the table has more than 1 row before deleting the last row
+
     if (table.rows.length > 1) {
         table.deleteRow(-1);
     }
